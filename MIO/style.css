@@ -82,7 +82,7 @@ body,html{
 /*CARTAS PROYECTOS*/
 .title{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     margin: 0;
     line-height: 1.2;
     margin-top: 100px;
@@ -116,8 +116,8 @@ body,html{
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* empuja el botón al fondo */
-    height: 30%; /* permite estirarlas con min-height */
-    min-height: 280px; /* o el valor que necesites */
+    height: 100%; /* permite estirarlas con min-height */
+    min-height: 300px;
 }
 
 
@@ -126,10 +126,13 @@ button {
     background-color: #ffffff;
     border: none;
     border-radius: 25px;
-    padding: 10px 20px;
-    margin-top: 10px;
+    padding: 10px 0px;
+    margin-top: 100px; /* <-- Added margin auto */
     cursor: pointer;
     transition: background-color 0.3s;
+    
+
+
 }
 
 button a {
@@ -145,8 +148,42 @@ button:hover {
 button:hover a {
     color: white;
 }
+.card >div p{
+    flex-grow: 1;
+}
 
-/*AboutMe*/
+.card > div button{
+    lign-self: center;
+    margin-top: auto; /* <-- Empuja el botón al fondo */
+    width: 80%; /* <-- Tamaño uniforme del botón */
+    max-width: 10px;
+}
+.project-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #3a003b;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 0px;
+    margin-top: auto;
+    margin: auto;
+    transition: background-color 0.3s, color 0.3s;
+    width: 80%;
+    max-width: 200px;
+    text-align: center;
+    
+}
+
+.project-button:hover {
+    background-color: #ff007f;
+    color: white;
+    
+}
+
+
+/*AboutMe*/ 
 .about-container {
     display: flex;
     align-items: center;
@@ -168,6 +205,81 @@ button:hover a {
     justify-content: center;
 }
 
+/*contact me*/
+.cart{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    height: 30%; /* permite estirarlas con min-height */
+    min-height: 280px; 
+    align-items: center;
+    margin-top: 0px;
+    flex-direction: column;
+    
 
+}
 
+input{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+
+}
+
+label{
+    text-align: center;
+    font-size: 18px;
+
+}
+button, submit{
+    text-decoration: none;
+    color: #3a003b; 
+    font-weight: bold;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+
+}
+p{
+    text-align: center;
+}
  
+.carta{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 410px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    height: 30%; /* permite estirarlas con min-height */
+    min-height: 280px; 
+    align-items: center;
+    margin-top: 0px;
+    flex-direction: column;
+    
+
+}
+.letra{
+    font-size: 18px;
+}
+.butt, submit{
+    text-decoration: none;
+    color: #3a003b; 
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+
+ }
