@@ -55,6 +55,7 @@ body,html{
     filter: blur(0px);
     
 }
+
 /*CONTENEDOR DE MI TEXTO*/
 .content{
     position: relative;
@@ -72,7 +73,7 @@ body,html{
 }
  h1{
     text-align: center;
-    font-size: 90px;
+    font-size: 75px;
     margin: 0;
     line-height: 1.2;
 
@@ -85,7 +86,7 @@ body,html{
     font-size: 45px;
     margin: 0;
     line-height: 1.2;
-    margin-top: 100px;
+    margin-top: 200px;
     font-family: Arial, sans-serif;
 }
 .card {
@@ -153,7 +154,7 @@ button:hover a {
 }
 
 .card > div button{
-    lign-self: center;
+
     margin-top: auto; /* <-- Empuja el botón al fondo */
     width: 80%; /* <-- Tamaño uniforme del botón */
     max-width: 10px;
@@ -194,9 +195,10 @@ button:hover a {
 }
 
 .about-image img {
-    width: 400px; /* o el tamaño que desees */
+
     height: auto;
     border-radius: 15px;
+    margin-left: auto;
 }
 
 .about-text {
@@ -218,7 +220,7 @@ button:hover a {
     height: 30%; /* permite estirarlas con min-height */
     min-height: 280px; 
     align-items: center;
-    margin-top: 0px;
+    margin-top: auto;
     flex-direction: column;
     
 
@@ -239,6 +241,7 @@ input{
 label{
     text-align: center;
     font-size: 18px;
+    margin: 10px;
 
 }
 button, submit{
@@ -252,19 +255,27 @@ button, submit{
 }
 p{
     text-align: center;
+    margin-top: 10px;
+   
+}
+.lenguaje{
+    text-align: center;
+    margin-top: 10px;
+
 }
  
 .carta{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     padding: 20px;
-    width: 410px;
+    width: 500px;
+
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     display: flex;
     justify-content: center;
     height: 30%; /* permite estirarlas con min-height */
-    min-height: 280px; 
+    min-height: 450px; 
     align-items: center;
     margin-top: 0px;
     flex-direction: column;
@@ -272,7 +283,7 @@ p{
 
 }
 .letra{
-    font-size: 18px;
+    font-size: 30px;
 }
 .butt, submit{
     text-decoration: none;
@@ -283,3 +294,89 @@ p{
     height: 50px;
 
  }
+ 
+ ul{
+    text-align: justify;
+ }
+  img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ section{
+    width: auto;
+    margin: auto;
+    display: flex;
+    gap: 10%;
+    padding: 15%;;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .cards-table {
+    /* width: 100%; */
+    /* border-collapse: separate; */
+    border-spacing: 30px;
+    text-align: center;
+    /* margin: auto; */
+    margin-top: -250px; 
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
+    
+  }
+  
+  .cards-table td {
+    vertical-align: top;
+    
+
+  }
+  
+  .card-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 350px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+  }
+  
+  .card-content img {
+    margin: 0 auto;
+   
+  }
+  
+  .project-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #3a003b;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 0px;
+    margin-top: auto;
+    transition: background-color 0.3s, color 0.3s;
+    width: 80%;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .project-button:hover {
+    background-color: #ff007f;
+    color: white;
+  }
+  .letter{
+    font-size: 65px;
+    text-align: center;
+    margin: 130px;
+  }
