@@ -84,9 +84,7 @@ body,html{
 .title{
     text-align: center;
     font-size: 45px;
-    margin: 0;
-    line-height: 1.2;
-    margin-top: 200px;
+    margin-top: 100px;
     font-family: Arial, sans-serif;
 }
 .card {
@@ -102,7 +100,7 @@ body,html{
     justify-content: center;
     gap: 30px;
     border: none;
-    margin-top: -100px;
+    margin-top: -17%;
     
 }
 
@@ -186,26 +184,46 @@ button:hover a {
 
 /*AboutMe*/ 
 .about-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 50px;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 0px ;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.about-container section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  width: 80%;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: -8%;
 }
 
 .about-image img {
-
-    height: auto;
-    border-radius: 15px;
-    margin-left: auto;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  display: flex;
+  max-width: 100%;
 }
 
 .about-text {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+  flex: 1;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  color: white;
+  max-width: 600px;
+  min-width: 280px;
+  text-align: center;
 }
+
 
 /*contact me*/
 .cart{
@@ -255,7 +273,7 @@ button, submit{
 }
 p{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
    
 }
 .lenguaje{
@@ -312,14 +330,15 @@ p{
     padding: 15%;;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 13%;
  }
+
  .cards-table {
-    /* width: 100%; */
-    /* border-collapse: separate; */
-    border-spacing: 30px;
+    border-spacing: 10px;
+    margin-top: -20%; 
     text-align: center;
-    /* margin: auto; */
-    margin-top: -250px; 
+    max-width: none;
+    margin: -50%;
     margin-left: auto;
     margin-right: auto;
 
@@ -330,7 +349,7 @@ p{
   
   .cards-table td {
     vertical-align: top;
-    
+
 
   }
   
@@ -343,15 +362,15 @@ p{
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 350px;
-    margin-left: auto;
-    margin-right: auto; 
+    justify-content: center;
+    margin-top: 30%;
     
-  }
+   
+    
+  } 
   
   .card-content img {
-    margin: 0 auto;
+    margin:  auto;
    
   }
   
@@ -378,5 +397,5 @@ p{
   .letter{
     font-size: 65px;
     text-align: center;
-    margin: 130px;
+    margin: 100px;
   }
